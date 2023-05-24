@@ -1,0 +1,2 @@
+create table Beer (id varchar(36) not null, beerName varchar(50) not null, beerStyle smallint not null, createDate datetime(6), price decimal(38,2) not null, quantityOnHand integer, upc varchar(255) not null, updateDate datetime(6), version integer, primary key (id)) engine=InnoDB;
+create table Customer (id varchar(36) not null, createdDate datetime(6), customerName varchar(255), lastModifiedDate datetime(6), version integer, primary key (id)) engine=InnoDB;
